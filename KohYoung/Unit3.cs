@@ -72,6 +72,10 @@ namespace KohYoung
         private void ProcessSaveFile(string textToSave,string pathToSave)
         {
             string pathFileToSave = Path.Combine(pathToSave, "result.txt");
+            if (File.Exists(pathFileToSave))
+            {
+                pathFileToSave = Path.Combine(pathToSave, "result" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt");
+            }
             FileStream fParameter = new FileStream(pathFileToSave, FileMode.Create, FileAccess.Write);
             StreamWriter m_WriterParameter = new StreamWriter(fParameter);
             m_WriterParameter.BaseStream.Seek(0, SeekOrigin.End);

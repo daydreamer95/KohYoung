@@ -12,9 +12,11 @@ namespace KohYoung
     {
         static void Main(string[] args)
         {
-            Unit3 unit3 = new Unit3();
-            List<Person> lstPerson = unit3.Read("D:\\kohyoungunit3.txt");
-            unit3.Save(lstPerson, "D:\\TESTKOHYOUNG");
+
+
+            //Unit3 unit3 = new Unit3();
+            //List<Person> lstPerson = unit3.Read("D:\\kohyoungunit3.txt");
+            //unit3.Save(lstPerson, "D:\\TESTKOHYOUNG");
         }
     }
 }
