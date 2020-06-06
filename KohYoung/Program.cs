@@ -13,6 +13,9 @@ namespace KohYoung
         static void Main(string[] args)
         {
 
+            //Unit4 unit4 = new Unit4();
+            //unit4.Process();
+            //Console.Read();
 
             //Unit3 unit3 = new Unit3();
             //List<Person> lstPerson = unit3.Read("D:\\kohyoungunit3.txt");
