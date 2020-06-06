@@ -59,7 +59,6 @@ namespace KohYoung
                     Monitor.Exit(monitor);
                 }
             }
-
             public static void Even()
             {
                 try

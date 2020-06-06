@@ -68,7 +68,6 @@ namespace KohYoung
                 Console.WriteLine("Check your list Person!");
             }
         }
-
         private void ProcessSaveFile(string textToSave,string pathToSave)
         {
             string pathFileToSave = Path.Combine(pathToSave, "result.txt");
